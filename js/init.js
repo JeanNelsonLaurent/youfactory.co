@@ -61,11 +61,11 @@ $(function () {
 	 */
 
 	var description = {
-		weeks: "weeks",
-		days: "days",
-		hours: "hours",
+		weeks: "semaines",
+		days: "jours",
+		hours: "heures",
 		minutes: "minutes",
-		seconds: "seconds"
+		seconds: "secondes"
 	};
 	
 	// year/month/day
@@ -87,7 +87,7 @@ $(function () {
 	/* Signup form */
 
 	$('#signupForm').bootstrapValidator({
-		message: 'This value is not valid',
+		message: 'Merci de renseigner votre adresse email',
 		feedbackIcons: {
 			valid: 'fa fa-check',
 			invalid: 'fa fa-times',
@@ -112,10 +112,10 @@ $(function () {
 			email: {
 				validators: {
 					notEmpty: {
-						message: 'Email cannot be empty'
+						message: 'Email ne peut pas être vide'
 					},
 					emailAddress: {
-						message: 'The input is not a valid email address'
+						message: 'Merci de renseigner une adresse valide'
 					}
 				}
 			}
