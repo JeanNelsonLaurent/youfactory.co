@@ -794,10 +794,20 @@ form.signup button.btn {
 }
  
 /* Contact */ 
- 
+
 #contact{
-	background: #2d2e2e;
-} 
+	background: #ededed;
+	color: #626262;
+}
+
+#contact h1,
+#contact h2,
+#contact h3,
+#contact h4,
+#contact h5,
+#contact h6{
+	color: #626262;
+}
  
 .list-contacts {
 	list-style: none;
