@@ -38,6 +38,19 @@ $(function () {
 		itemsTabletSmall: [690,2],
 		itemsMobile : [480,1]
 	});
+
+
+	/* ---------------------------------------------------------
+	 * Machines carousel
+	 */
+	
+	$("#machinesCarousel").owlCarousel({
+		items: 4,
+		itemsTablet: [768,3],
+		itemsTabletSmall: [690,2],
+		itemsMobile : [480,1]
+	});
+
 	
 	/* ---------------------------------------------------------
 	 * Scroll arrow
@@ -69,7 +82,7 @@ $(function () {
 	};
 	
 	// year/month/day
-	$('#countdown').countdown('2015/02/16', function (event) {
+	$('#countdown').countdown('2015/02/17', function (event) {
 		$(this).html(event.strftime(
 			'<div class="countdown-section"><b>%w</b> <span>' + description.weeks + '</span> </div>' +
 			'<div class="countdown-section"><b>%d</b> <span>' + description.days + '</span> </div>' +
@@ -129,12 +142,12 @@ $(function () {
 			name: {
 				validators: {
 					notEmpty: {
-						message: 'Name cannot be empty'
+						message: 'Merci de renseigner un nom de contact'
 					},
 					stringLength: {
 						min: 6,
 						max: 30,
-						message: 'Name must be more than 6 and less than 30 characters long'
+						message: 'Le pseudo doit etre au minimum 6 charactères et au maximum 30'
 					},
 					regexp: {
 						regexp: /^[a-zA-Z\s]+$/,
