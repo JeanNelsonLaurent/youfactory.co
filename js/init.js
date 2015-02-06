@@ -14,9 +14,9 @@ $(function () {
 	 */
 
 	$.backstretch([
-		"img/background/1.jpg",
-		"img/background/2.jpg",
-		"img/background/3.jpg"
+		"img/background/Prototypage.jpg",
+		"img/background/Design_mobilier.jpg",
+		"img/background/Hardware_et_lutherie.jpg"
 	], {duration: 3800, fade: 1500});
 	
 	/* ---------------------------------------------------------

@@ -11,7 +11,7 @@
 	$database = 'TEMPLATE-DATABASE';
 	
 	// Contact
-	$to = 'YOUR-EMAIL-ADDRESS';
+	$to = 'jean.nelson@youfactory.fr';
     $subject = 'Subject here...';
 	
 	// Variant
