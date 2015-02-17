@@ -578,7 +578,7 @@ form.signup button.btn {
 
 .arrow-down{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	position: absolute;
 	bottom: 40px;
 	display: none;

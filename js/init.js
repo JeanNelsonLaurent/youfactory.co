@@ -74,7 +74,7 @@ $(function () {
 	 */
 
 	var description = {
-		weeks: "semaines",
+		weeks: "semaine",
 		days: "jours",
 		hours: "heures",
 		minutes: "minutes",
