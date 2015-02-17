@@ -865,6 +865,11 @@ p.copyright {
 	font-size: 14px;
 }
 
+.copyright a {
+	color: black;
+
+}
+
 /* 
  * Social icons
  * --------------------------------------------------------- */
